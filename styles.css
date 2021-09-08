@@ -1,26 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Lora&display=swap');
 
 
-body {background-color: lightblue; font-family: 'Barlow', sans-serif;}
+body {background-color: lightblue; font-family: 'Barlow', sans-serif; margin: 1%}
 h1, h2, h3 {color: black; font-family: 'Lora', serif;}
 
-div {border-style: solid; border-width: 2px; border-radius: 10px; border-color: black;
-    max-width: 50%; padding: 2rem; margin: 1%;}
+div {margin: 10px}
 
+.flex-div {display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center}
 
-#explainer-text {max-width: 50%}
+#flag-list {border-style: solid; border-width: 2px; border-radius: 10px; border-color: black;
+    ; padding: 2rem; margin-bottom: 1%;}
 
-.button {margin: 1%; font-size: 18px; padding: 2rem; border-style: solid; border-width: 2px;
+#explainer-text {border-style: solid; border-width: 2px; border-radius: 10px; border-color: black;
+    padding: 2rem; margin-bottom: 1%; max-width: 40%;}
+
+.button {margin-bottom: 1%; font-size: 18px; padding: 2rem; border-style: solid; border-width: 2px;
     border-radius: 10px; border-color: black; background-color: darkblue}
-
 .button:hover {background-color: purple}
 
 .form-1 {border-style: solid; border-width: 2px; border-radius: 10px; border-color: black;
-    max-width: 50%; padding: 2rem; margin: 1%}
+    max-width: 50%; padding: 2rem; margin-bottom: 1%}
 
 a:link {color: blue;}
 a:visited {color: green}
 a:hover {color: red}
 
-body {margin: 1%}
+
 
