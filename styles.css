@@ -6,6 +6,7 @@ h1, h2, h3 {color: black; font-family: 'Lora', serif;}
 
 div {margin: 10px}
 
+#flex-title {text-align: center}
 .flex-div {display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center}
 
 #flag-list {border-style: solid; border-width: 2px; border-radius: 10px; border-color: black;
