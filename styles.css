@@ -1,4 +1,24 @@
-#div1 {background-color: lightblue}
-a:link {color: red}
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Lora&display=swap');
 
-#div1:hover {display: none}
+
+body {background-color: lightblue; font-family: 'Barlow', sans-serif;}
+h1, h2, h3 {color: black; font-family: 'Lora', serif;}
+
+div {border-style: solid; border-width: 2px; border-radius: 10px; border-color: black;
+    max-width: 50%; padding: 2rem; margin: 1%;}
+
+
+#explainer-text {max-width: 50%}
+
+.button {margin: 1%; font-size: 18px; padding: 2rem; border-style: solid; border-width: 2px;
+    border-radius: 10px; border-color: black; background-color: darkblue}
+
+.form-1 {border-style: solid; border-width: 2px; border-radius: 10px; border-color: black;
+    max-width: 50%; padding: 2rem; margin: 1%}
+
+a:link {color: blue;}
+a:visited {color: green}
+a:hover {color: red}
+
+body {margin: 1%}
+

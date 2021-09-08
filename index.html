@@ -3,35 +3,112 @@
 <head>
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
-    <title>Github test</title>
+    <title>Flags</title>
 </head>
+
 <body>
+<h1>Welcome to my Geo City page</h1>
+<h2>this page is about flags, at least, one day they will be added</h2>
 
-<div id="div1">
-<h1> test test test</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque autem consequatur cum ducimus facilis id impedit laborum laudantium maiores obcaecati, quae quisquam, sed? Ad amet aut nulla ddd
-    temporibus veniam.</p>
-</div>
 
-<p>click <a href="virus.com">here </a> to download a virus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolore earum minima perferendis, quasi qui ut. Assumenda consectetur ea error necessitatibus omnis tenetur unde. Cumque fuga id perferendis repudiandae unde.</p>
-
-<div>
-    <h3>top ten dogs</h3>
+<div class="div-element">
+<h2> European flags</h2>
     <ol>
-        <li>nice</li>
-        <li>dog</li>
-        <li>bird</li>
-        <li>mand</li>
+        <li>Dutch flag</li>
+        <li>French flag</li>
+        <li>German flag</li>
+    </ol>
+
+    <h2>Non state flags</h2>
+    <ol>
+        <li>European Union</li>
+        <li>NATO flag</li>
+        <li>Frisian flag</li>
     </ol>
 </div>
 
-<div>
-    <p>123, abc</p>
+<div id="explainer-text">
+    <h3> Explainer text</h3>
+  <span id="p1">  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur eaque exercitationem
+        expedita id ipsum itaque maiores officia officiis quam quisquam, reprehenderit unde voluptatem! Impedit
+        ipsum minima natus soluta voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolorem
+        eos expedita libero maxime numquam quidem repellendus vel voluptate voluptatum. At deleniti ea eaque ipsam odio
+        omnis perspiciatis quidem rem.   </p>
+      </span>
+
+    <span id="p2">
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur eaque exercitationem
+        expedita id ipsum itaque maiores officia officiis quam quisquam, reprehenderit unde voluptatem! Impedit
+        ipsum minima natus soluta voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolorem
+        eos expedita libero maxime numquam quidem repellendus vel voluptate voluptatum. At deleniti ea eaque ipsam odio
+        omnis perspiciatis quidem rem.
+        </p>
+    </span>
 </div>
 
 
+<button type="button" class="button">
+    <a href="https://www.google.nl" target="_blank">Click!</a></button>
 
 
+<form onsubmit="javascript-hier" class="form-1">
+
+
+    <fieldset>
+        <legend>information</legend>
+
+        <label for="naam">Naam:</label>
+        <input type="text" id="naam" name="naam"/>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"/>
+    </fieldset>
+
+    <fieldset>
+        <legend>your review</legend>
+        <br>
+        <label for="hoe-recept-gevonden">how did you like my page?</label>
+        <select id="hoe-recept-gevonden" name="hoe-recept-gevonden">
+            <option value="Anders">good</option>
+            <option value="aivd">excellent</option>
+            <option value="Rutte">hello world</option>
+        </select>
+
+        <br><br>
+
+        <p>would you tell your friends about Windows Vista? please...</p>
+        <input type="radio" id="try-no" name="try-windows">
+        <label for="try-no">no</label>
+
+        <input type="radio" id="try-yes" name="try-windows">
+        <label for="try-yes">yes</label>
+
+        <input type="radio" id="try-maybe" name="try-windows">
+        <label for="try-maybe">yes</label>
+
+
+        <br><br>
+
+        <label for="remarks">do you have anything to say:</label>
+
+        <br>
+
+        <textarea name="remarks" placeholder="type something nice here" id="remarks" cols="30" rows="10"></textarea>
+
+        <br><br>
+
+        <input type="checkbox" id="newsletter" name="newsletter-checker" checked="true">
+        <label for="newsletter">I hereby consent to give away my passwords</label>
+
+        <br><br>
+
+        <button type="submit"> Send! </button>
+    </fieldset>
+
+</form>
+</footer>
 </body>
-<footer><p>copyright this is me website</p></footer>
+<footer class="footer">
+    <p>copyright. this is my website</p>
+</footer>
 </html>
