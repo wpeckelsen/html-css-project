@@ -1,19 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Lora&display=swap');
 
 
-body {background-color: lightblue; font-family: 'Barlow', sans-serif; margin: 1%}
-h1, h2, h3 {color: black; font-family: 'Lora', serif;}
+body {
+    background-color: lightblue;
+    font-family: 'Barlow', sans-serif;
+    margin: 1%
+}
 
-div {margin: 10px}
 
-#flex-title {text-align: center}
-.flex-div {display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center}
+h1, h2, h3 {
+    color: black;
+    font-family: 'Lora', serif;
+}
+
+div {
+    margin: 10px
+}
+
+#flex-title {
+    text-align: center
+}
+.flex-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
 
 #flag-list {border-style: solid; border-width: 2px; border-radius: 10px; border-color: black;
-    ; padding: 2rem; margin-bottom: 1%;}
+    ; padding: 2rem; margin-bottom: 1%; background-color: #E8E9EB;}
 
 #explainer-text {border-style: solid; border-width: 2px; border-radius: 10px; border-color: black;
-    padding: 2rem; margin-bottom: 1%; max-width: 40%;}
+    padding: 2rem; margin-bottom: 1%; max-width: 40%; background-color: #E8E9EB;}
 
 .button {margin-bottom: 1%; font-size: 18px; padding: 2rem; border-style: solid; border-width: 2px;
     border-radius: 10px; border-color: black; background-color: darkblue}
@@ -25,6 +43,8 @@ div {margin: 10px}
 a:link {color: blue;}
 a:visited {color: green}
 a:hover {color: red}
+
+
 
 
 
